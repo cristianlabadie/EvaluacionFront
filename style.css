@@ -1,0 +1,66 @@
+.wrap-header {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.wrap-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(109, 107, 107);
+  padding: 1vh;
+  justify-self: flex-start;
+  width: fit-content;
+}
+
+.wrap-main {
+  display: flex;
+}
+
+/* section {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  border-radius: 2%;
+  border: 3pt;
+  border-color: brown;
+} */
+.wrap-seccion {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border: 10px;
+  border-radius: 4%;
+  margin: 5%;
+  padding: 5%;
+}
+
+.titulo-seccion {
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fechas-experiencia {
+  margin: 0px;
+  padding: 1%;
+  font-size: small;
+  background-color: bisque;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.wrap-cargo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.funciones {
+  margin: 0px;
+  padding: 0px;
+}
+
+.github {
+  color: black;
+}
