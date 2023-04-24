@@ -1,38 +1,41 @@
+/* paleta de colores:
+https://coolors.co/palette/dce0d9-fbf6ef-ead7c3
+DCE0D9
+FBF6EF
+EAD7C3
+*/
 .wrap-header {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: #ead7c3;
+  border: 5px solid;
+  border-color: black;
 }
 
 .wrap-aside {
   display: flex;
+  margin-top: 1%;
   flex-direction: column;
-  background-color: rgb(109, 107, 107);
+  background-color: #ead7c3;
   padding: 1vh;
   justify-self: flex-start;
   width: fit-content;
+  border: 5px solid;
 }
 
 .wrap-main {
   display: flex;
 }
 
-/* section {
-  display: flex;
-  flex-direction: column;
-  padding: 2vh;
-  border-radius: 2%;
-  border: 3pt;
-  border-color: brown;
-} */
 .wrap-seccion {
   display: flex;
   flex-direction: column;
-  background-color: beige;
   border: 10px;
   border-radius: 4%;
   margin: 5%;
   padding: 5%;
+  background-color: #ead7c3;
+  border: 5px solid;
 }
 
 .titulo-seccion {
@@ -45,7 +48,7 @@
   margin: 0px;
   padding: 1%;
   font-size: small;
-  background-color: bisque;
+  background-color: #fbf6ef;
   width: fit-content;
   border-radius: 10px;
 }
@@ -63,4 +66,37 @@
 
 .github {
   color: black;
+}
+
+body {
+  background-color: #dce0d9;
+}
+
+.wrap-footer {
+  background-color: #ead7c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.foto-usuario {
+  width: 50px;
+  height: 50px;
+  padding-left: 20px;
+}
+.wrap-nombre {
+  display: flex;
+  align-items: center;
+}
+
+.foto-inacap {
+  margin-top: 5%;
+  width: 40%;
 }
